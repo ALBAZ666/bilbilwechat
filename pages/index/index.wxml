@@ -19,6 +19,7 @@
 </swiper>
 </view>
 <view class="tips">
+  <text class="iconfont icon-tishi"></text>
   <text>欢迎使用我们的系统，谢谢~~</text>
 </view>
 

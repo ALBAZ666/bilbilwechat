@@ -1,9 +1,4 @@
 /**app.wxss**/
 
 
-.myview{
-  height: 500rpx;
-  width: 750rpx;
-  background-color: antiquewhite;
-  font-size: 30rpx;
-}
+@import"staic/css/font.wxss";
