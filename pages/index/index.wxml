@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<text>首页</text>
+
+<view style="height: 300rpx;width:750rpx;background-color: pink;"></view>
+
+<view class="my view">niceeeeee</view>
+<button size="mini" type="default" class="mybutton">我是个按钮</button>
+<button size="mini" type="warn">我是个按钮</button>
+<button size="mini" type="primary"plain>我是个按钮</button>
