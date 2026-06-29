@@ -1,10 +1,18 @@
 <!--index.wxml-->
-
-<text>首页</text>
-
-<view style="height: 300rpx;width:750rpx;background-color: pink;"></view>
-
-<view class="my view">niceeeeee</view>
-<button size="mini" type="default" class="mybutton">我是个按钮</button>
-<button size="mini" type="warn">我是个按钮</button>
-<button size="mini" type="primary"plain>我是个按钮</button>
+<swiper
+  autoplay
+  indicator-dots
+  circular
+  indicator-color='#FFFFFF'
+  interval='3000'
+>
+  <swiper-item>
+    <image src="/images/大图片猛赛/1698419482365679.png" mode="widthFix"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/大图片猛赛/170391974556984235.png" mode="widthFix"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/大图片猛赛/170392282507554548.png" mode="widthFix"/>
+  </swiper-item>
+</swiper>

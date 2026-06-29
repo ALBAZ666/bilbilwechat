@@ -1,2 +1,5 @@
 /**index.wxss**/
+swiper image {
+  width: 750rpx;
+}
 
