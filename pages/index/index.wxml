@@ -23,3 +23,28 @@
   <text>欢迎使用我们的系统，谢谢~~</text>
 </view>
 
+<view class="menu">
+</view>
+
+<view class="menu">
+  <view class="item">
+    <image src="/images/menu/3d4aea3c-4c26-4add-918b-5855008cc98e.webp" class="img"/>
+    <text class="title">物业合同</text>
+  </view>
+  <view class="item">
+    <image src="/images/menu/97abd706-b02b-4ba5-b741-7c88c6dea89a.webp" class="img"/>
+    <text class="title">物业费用</text>
+  </view>
+  <view class="item">
+    <image src="/images/menu/14518617-848e-4f2e-a3b7-07c6bddb8e73.webp" class="img"/>
+    <text class="title">物业管理</text>
+  </view>
+  <view class="item">
+    <image src="/images/menu/b594454a-9bce-4de5-ad87-cbe02418d9ca.webp" class="img"/>
+    <text class="title">物业打人</text>
+  </view>
+  <view class="item">
+    <image src="/images/menu/c2e76965-08c3-490d-9dc5-dee70059c022.webp" class="img"/>
+    <text class="title">物业砍人</text>
+  </view>
+</view>

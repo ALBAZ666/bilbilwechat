@@ -10,3 +10,32 @@ swiper image {
   margin:30rpx 10rpx 30rpx 10rpx;
   padding-left:20rpx ;
 }
+
+/* flex布局 */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 16rpx;
+  border-radius: 10rpx;
+  flex-wrap: wrap;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150rpx;
+  height: 200rpx;
+  border: rgb(192, 251, 255) solid 1rpx;
+  margin: 1rpx;
+  background-color: blue;
+}
+.img{
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 10rpx;
+}
+
+.title{
+  margin-top: 12rpx;
+  font-size: 24rpx;
+}
