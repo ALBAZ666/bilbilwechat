@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<view class="banner">
 <swiper
   autoplay
   indicator-dots
@@ -7,12 +8,17 @@
   interval='3000'
 >
   <swiper-item>
-    <image src="/images/大图片猛赛/1698419482365679.png" mode="widthFix"/>
+    <image src="/images/大图片猛赛/1698419482365679.png" mode="scaleToFill"/>
   </swiper-item>
   <swiper-item>
-    <image src="/images/大图片猛赛/170391974556984235.png" mode="widthFix"/>
+    <image src="/images/大图片猛赛/170391974556984235.png" mode="scaleToFill"/>
   </swiper-item>
   <swiper-item>
-    <image src="/images/大图片猛赛/170392282507554548.png" mode="widthFix"/>
+    <image src="/images/大图片猛赛/170392282507554548.png" mode="scaleToFill"/>
   </swiper-item>
 </swiper>
+</view>
+<view class="tips">
+  <text>欢迎使用我们的系统，谢谢~~</text>
+</view>
+

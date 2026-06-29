@@ -2,4 +2,11 @@
 swiper image {
   width: 750rpx;
 }
-
+.tips{
+  background-color: #f5eedf;
+  font-size: 32rpx;
+  color: #e9ab4e;
+  border-radius: 50rpx;
+  margin:30rpx 10rpx 30rpx 10rpx;
+  padding-left:20rpx ;
+}
