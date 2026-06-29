@@ -39,3 +39,27 @@ swiper image {
   margin-top: 12rpx;
   font-size: 24rpx;
 }
+
+.notice{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.notice>text{
+  flex-grow:1;
+  font-size: 40rpx;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom>view>image{
+  width: 343rpx;
+  padding: 10rpx;
+  height:200rpx ;
+}

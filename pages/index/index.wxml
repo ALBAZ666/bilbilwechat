@@ -48,3 +48,23 @@
     <text class="title">物业砍人</text>
   </view>
 </view>
+
+<view class="notice">
+  <image src="/images/home/通知公告.png" mode="aspectFit" style="width: 200rpx; height: 100rpx;"/>
+  <text>通知公告</text>
+</view>
+
+<view class="bottom">
+  <view>
+    <image src="/images/home/1f9d0c26110eec5c283fb023b730cf9b.png" mode="scaleToFill" />
+  </view>
+  <view>
+    <image src="/images/home/789109c81d6d2e26bc13cf9c02c5de2e.png" mode="scaleToFill" />
+  </view>
+  <view>
+    <image src="/images/home/ad5eec59ff85d1ed6659927d21fd4057.png" mode="scaleToFill" />
+  </view>
+  <view>
+    <image src="/images/home/dc99a939b299a103e3310074f17f3a20.png" mode="scaleToFill" />
+  </view>
+</view>
