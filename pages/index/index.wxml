@@ -9,3 +9,20 @@
 <view>{{userinfo.name}}</view>
 <view>{{userinfo.hobby}}</view>
 <button type="primary" bindtap="handleChangeHobby">变化爱好</button>
+
+<view>--------循环数组打印名字--------</view>
+
+<view wx:for="{{names}}" wx:key="index">{{item}}</view>
+<button type="primary" bindtap="handleAddName">增加人名</button>
+
+<view>--------列表渲染显示商品信息--------</view>
+
+<view>--------列表渲染显示商品信息-修改item和index--------</view>
+<view wx:for="{{goodsList}}" wx:key="index" wx:for-item='info' wx:for-index='i'>
+  <text>{{i}}-商品id:{{info.id}}--商品名字:{{info.name}}--商品价格:{{info.price}}</text>
+</view>
+
+<view>--------列表渲染显示商品信息-block--------</view>
+<view wx:for="{{goodsList}}" wx:key="index" wx:for-item='info' wx:for-index='i'>
+  <block>{{i}}-商品id:{{info.id}}--商品名字:{{info.name}}--商品价格:{{info.price}}</block>
+</view>
