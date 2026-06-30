@@ -1,2 +1,5 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+
+<view>======事件绑定======</view>
+
+<button type="warn" plain size="mini" bindtap="bandleConsole">点击控制打印</button>
