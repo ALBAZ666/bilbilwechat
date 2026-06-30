@@ -20,3 +20,10 @@
 <navigator url="/pages/login/login" open-type="redirect"><button type="primary" plain>去登陆3</button></navigator>
 <navigator url="/pages/index/index" open-type="switchTab"><button type="primary" plain>去首页</button></navigator>
 <navigator url="/pages/login/login" open-type="reLaunch"><button type="primary" plain>去登录4</button></navigator>
+
+<view>=======页面跳转--程式=======</view>
+<button type="default" bind:tap="handleNavigateTo">navigateTo</button>
+<button type="warn" bind:tap="handleRedirectTo">redirectTo</button>
+<button type="primary" bind:tap="handleSwitchTab">switchTab</button>
+<button type="default" bind:tap="handleReLaunch">reLaunch</button>
+<button type="warn" bind:tap="handleNavigateBack">navigateBack</button>
