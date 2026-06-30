@@ -1,29 +1,2 @@
 <!--pages/my/my.wxml-->
 
-<view>======事件绑定======</view>
-
-<button type="warn" plain size="mini" bindtap="bandleConsole">点击控制打印</button>
-
-<view>======事件绑定======</view>
-<view style="height: 400rpx; width: 750rpx;background-color: blue;display: flex;justify-content: center;align-items: center;" bindtap="handleParent">
-
-<button type="primary" plain bindtap="handleChildren">按钮1</button>
-<button type="primary" plain catchtap="handleChildren">按钮2-按钮2-阻止事件冒泡</button>
-</view>
-<view>======事件对象和传参数======</view>
-
-<view bindtap="handleClick01" data-id='1001' data-name='justin' mark:name='xxx'>
-</view>
-<view>======页面跳转======</view>
-<navigator url="/pages/login/login"><button type="primary" plain>去登陆</button></navigator>
-<navigator url="/pages/login/login" open-type="navigate"><button type="primary" plain>去登陆2</button></navigator>
-<navigator url="/pages/login/login" open-type="redirect"><button type="primary" plain>去登陆3</button></navigator>
-<navigator url="/pages/index/index" open-type="switchTab"><button type="primary" plain>去首页</button></navigator>
-<navigator url="/pages/login/login" open-type="reLaunch"><button type="primary" plain>去登录4</button></navigator>
-
-<view>=======页面跳转--程式=======</view>
-<button type="default" bind:tap="handleNavigateTo">navigateTo</button>
-<button type="warn" bind:tap="handleRedirectTo">redirectTo</button>
-<button type="primary" bind:tap="handleSwitchTab">switchTab</button>
-<button type="default" bind:tap="handleReLaunch">reLaunch</button>
-<button type="warn" bind:tap="handleNavigateBack">navigateBack</button>
