@@ -8,6 +8,9 @@
 <view style="height: 400rpx; width: 750rpx;background-color: blue;display: flex;justify-content: center;align-items: center;" bindtap="handleParent">
 
 <button type="primary" plain bindtap="handleChildren">按钮1</button>
-<button type="primary" plain catch tap="handleChildren">按钮2</button>
+<button type="primary" plain catchtap="handleChildren">按钮2-按钮2-阻止事件冒泡</button>
+</view>
+<view>======事件对象和传参数======</view>
 
+<view bindtap="handleClick01" data-id='1001' data-name='justin' mark:name='xxx'>
 </view>
