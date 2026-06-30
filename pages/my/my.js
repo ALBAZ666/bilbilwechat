@@ -12,12 +12,33 @@ Page({
   },
 
   handleClick01(event){
-    // 如果有事件冒泡--》他们里面的值是不一样的
-    // currentTarget: 事件绑定者--->view
-    // target: 事件触发者--》view
     console.log(event)
     console.log(event.target.dataset)
     console.log(event.target.dataset.name)
     console.log(event.mark.name)
+  },
+
+  handleNavigateTo(){
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
+  },
+
+  handleRedirectTo(){
+    wx.redirectTo({
+      url: '/pages/login/login',
+    })
+  },
+
+  handleSwitchTab(){
+    wx.switchTab({
+      url: '/pages/my/my',
+    })
+  },
+
+  handleReLaunch(){
+    wx.reLaunch({
+      url: '/pages/login/login',
+    })
   }
 })
