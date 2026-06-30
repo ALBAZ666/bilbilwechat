@@ -1,1 +1,11 @@
 <!--index.wxml-->
+<view>
+<view>姓名是: {{name}}</view>
+<view>年龄是: {{age}}</view>
+<button type="primary" bindtap="handleAddAge">点我年龄+1</button>
+</view>
+
+<view>--------显示对象--------</view>
+<view>{{userinfo.name}}</view>
+<view>{{userinfo.hobby}}</view>
+<button type="primary" bindtap="handleChangeHobby">变化爱好</button>
