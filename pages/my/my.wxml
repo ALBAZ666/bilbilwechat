@@ -14,3 +14,9 @@
 
 <view bindtap="handleClick01" data-id='1001' data-name='justin' mark:name='xxx'>
 </view>
+<view>======页面跳转======</view>
+<navigator url="/pages/login/login"><button type="primary" plain>去登陆</button></navigator>
+<navigator url="/pages/login/login" open-type="navigate"><button type="primary" plain>去登陆2</button></navigator>
+<navigator url="/pages/login/login" open-type="redirect"><button type="primary" plain>去登陆3</button></navigator>
+<navigator url="/pages/index/index" open-type="switchTab"><button type="primary" plain>去首页</button></navigator>
+<navigator url="/pages/login/login" open-type="reLaunch"><button type="primary" plain>去登录4</button></navigator>
